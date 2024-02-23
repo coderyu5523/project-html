@@ -1,0 +1,236 @@
+
+/*   배경 부분 start  */
+
+/* 모든 요소의 마진 패딩값 초기화 */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* 높이를 설정할 때 위아래 가지고 있는 마진 패딩값을 초기화.
+     border 값이 있어야 할때 높이가 달라짐 그래서 box-sizing: border-box
+     를 설정하면 보더 + 높이를 합쳐서 원하는 높이를 설정해줌
+     */
+}
+main{
+    width: 1000px;
+}
+
+header {
+    margin: 0  30px 0 0;
+    padding-right: 20px;
+    height: 50px;
+    background-size: 100% 100%;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-left{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    color: black;
+    font-weight: 800;
+
+
+}
+
+.menu-right {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    color: black;
+    font-weight: 800;
+
+}
+
+
+
+
+
+table {
+    width: 100%;
+}
+
+table input {
+    width: 100%;
+}
+
+
+/*   배경 부분 end  */
+
+/* 둘러보기 부분 start */
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size :25px;
+    font-weight: 800;
+    color: rgb(66,66,66);
+}
+
+.body{
+    margin :30px 80px;
+    height: 1200px;
+}
+.card-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.card{
+    display :grid;
+    grid-template-columns: 1fr 3fr  ;
+    border: 1px solid rgb(210,210,210);
+    border-radius: 6px;
+    box-shadow: 0 0 3px 0 rgb(170,170,170);
+
+}
+.card-img1{
+    background-image: url(../images/card1.jpg);
+    height: 70px;
+    background-size: 100% 100%;
+}
+.card-img2{
+    background-image: url(../images/card2.jpg);
+    height: 70px;
+    background-size: 100% 100%;
+}
+.card-img3{
+    background-image: url(../images/card3.jpg);
+    height: 70px;
+    background-size: 100% 100%;
+}
+.card-img4{
+    background-image: url(../images/card4.jpg);
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.card-title{
+    display: grid ;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+
+.ad-img1{
+    background-image: url(../images/ad1.png);
+    height: 150px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+}
+
+section{
+    margin:30px 0;
+}
+
+.img-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.img1{
+    background-image: url(../images/home1.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+.img2{
+    background-image: url(../images/home1.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+}
+.img3{
+    background-image: url(../images/home1.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+}
+.img4{
+    background-image: url(../images/home1.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+}
+.img5{
+    background-image: url(../images/home1.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+
+.ad-img2{
+    background-image: url(../images/ad2.png);
+    height: 300px;
+    background-size: 100% 100%;
+}
+.company-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.company-img1{
+    background-image: url(../images/home1.jpg);
+    height:180px;
+    background-size: 100% 100%;
+}
+.company-img2{
+    background-image: url(../images/home2.jpg);
+    height:180px;
+    background-size: 100% 100%;
+}
+.company-img3{
+    background-image: url(../images/home3.jpg);
+    height:180px;
+    background-size: 100% 100%;
+}
+.company-img4{
+    background-image: url(../images/home4.jpg);
+    height:180px;
+    background-size: 100% 100%;
+}
+.company-img5{
+    background-image: url(../images/home5.jpg);
+    height:180px;
+    background-size: 100% 100%;
+}
+
+.company-img6{
+    background-image: url(../images/home6.jpg);
+    height:180px;
+    background-size: 100% 100%;
+}
+.company-img7{
+    background-image: url(../images/home7.jpg);
+    height:180px;
+    background-size: 100% 100%;
+}
+.company-img8{
+    background-image: url(../images/home8.jpg);
+    height:180px;
+    background-size: 100% 100%;
+}
+
+.text1{
+    margin: 5px 0;
+    font-size: 13px ;
+    color:grey;
+}
+.text2{
+    font-size: 18px;
+    font-weight: 600;    
+}
+
+.text3{
+    font-size:12px;
+    display: inline;
+}
+
