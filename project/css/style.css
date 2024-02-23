@@ -47,6 +47,9 @@ nav {
 
 }
 
+.footer{
+    height: 1000;
+}
 
 
 
@@ -75,8 +78,8 @@ table input {
 }
 
 .body{
-    margin :30px 80px;
-    height: 1200px;
+    margin :30px 50px;
+    height: 1300px;
 }
 .card-box{
     display: grid;
@@ -233,4 +236,12 @@ section{
     font-size:12px;
     display: inline;
 }
+
+/* 여기까지 메인 */
+
+th, td {
+    font-size: 25px;
+}
+
+
 
