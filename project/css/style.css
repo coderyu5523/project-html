@@ -78,8 +78,8 @@ table input {
 }
 
 .body{
-    margin :30px 50px;
-    height: 1300px;
+    margin :30px 10px;
+    height: 1500px;
 }
 .card-box{
     display: grid;
@@ -233,3 +233,37 @@ th, td {
 
 
 
+/* 기업 메인 */
+
+.company-people-image1{
+    background-image: url(../images/people.jpg);
+    width: 150px;
+    height: 180px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+
+}
+.company-people-image2{
+    background-image: url(../images/people.jpg);
+    width: 150px;
+    height: 180px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+
+}
+.company-people-image3{
+    background-image: url(../images/people.jpg);
+    width: 150px;
+    height: 180px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+
+}
+
+.best-injae{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+
+
+}
