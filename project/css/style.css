@@ -20,6 +20,7 @@ header {
     padding-right: 20px;
     height: 50px;
     background-size: 100% 100%;
+    width: 1000px;
 }
 
 nav {
@@ -46,9 +47,8 @@ nav {
     font-weight: 800;
 
 }
-
-.footer{
-    height: 1000;
+.search-box{
+    width: 1500px;
 }
 
 
@@ -95,26 +95,6 @@ table input {
     box-shadow: 0 0 3px 0 rgb(170,170,170);
 
 }
-.card-img1{
-    background-image: url(../images/card1.jpg);
-    height: 70px;
-    background-size: 100% 100%;
-}
-.card-img2{
-    background-image: url(../images/card2.jpg);
-    height: 70px;
-    background-size: 100% 100%;
-}
-.card-img3{
-    background-image: url(../images/card3.jpg);
-    height: 70px;
-    background-size: 100% 100%;
-}
-.card-img4{
-    background-image: url(../images/card4.jpg);
-    height: 70px;
-    background-size: 100% 100%;
-}
 
 .card-title{
     display: grid ;
@@ -145,35 +125,27 @@ section{
     background-image: url(../images/home1.jpg);
     height: 250px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 
 .img2{
     background-image: url(../images/home1.jpg);
     height: 250px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 .img3{
     background-image: url(../images/home1.jpg);
     height: 250px;
     background-size: 100% 100%;
-}
-.img4{
-    background-image: url(../images/home1.jpg);
-    height: 250px;
-    background-size: 100% 100%;
-}
-.img5{
-    background-image: url(../images/home1.jpg);
-    height: 250px;
-    background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 
 
-.ad-img2{
-    background-image: url(../images/ad2.png);
-    height: 300px;
-    background-size: 100% 100%;
-}
+
 .company-box{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -184,42 +156,58 @@ section{
     background-image: url(../images/home1.jpg);
     height:180px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 .company-img2{
     background-image: url(../images/home2.jpg);
     height:180px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 .company-img3{
     background-image: url(../images/home3.jpg);
     height:180px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 .company-img4{
     background-image: url(../images/home4.jpg);
     height:180px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 .company-img5{
     background-image: url(../images/home5.jpg);
     height:180px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 
 .company-img6{
     background-image: url(../images/home6.jpg);
     height:180px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 .company-img7{
     background-image: url(../images/home7.jpg);
     height:180px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 .company-img8{
     background-image: url(../images/home8.jpg);
     height:180px;
     background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 
 .text1{
