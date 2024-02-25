@@ -287,6 +287,9 @@ th, td {
     padding: 5px 5px; /* 클릭 영역 확대 */
     margin-right: 5px; /* 오른쪽 여백 설정 */
 } 
+.page-link {
+    color: black !important;
+}
 
 
 
