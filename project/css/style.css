@@ -231,6 +231,12 @@ section{
     justify-content: space-between;
 }
 
+/* .btn-like{
+    display: flex;
+    justify-content: space-around;
+
+} */
+
 /* 여기까지 메인 */
 
 th, td {
