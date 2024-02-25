@@ -267,6 +267,19 @@ th, td {
 
 }
 
+/* list */
+
+.job-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+}
+/* .location{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+
 /* footer */
 
 .help{
