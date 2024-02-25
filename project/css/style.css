@@ -293,7 +293,11 @@ th, td {
 
 /* footer */
 
+.footer-top{
+    margin-bottom: 30px;
+    font-weight: bold;
 
+}
 
 
 .tf-search{
