@@ -16,6 +16,11 @@ a {
     text-decoration: none !important;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
 /* 공통 end */
 
 /* 헤더 start */
@@ -25,7 +30,7 @@ a {
 }
 
 .header-main {
-    margin: 0 30px 0 0;
+    margin: 0px auto;
     /* padding-right: 10px; */
     height: 50px;
     background-size: 100% 100%;
@@ -57,27 +62,34 @@ a {
 
 }
 
+/* 헤더 end */
+
+/* 바디 start */
+
+/* 광고 start */
+.div-addimage {
+    margin: 30px 10px;
+    height: 100%;
+}
+
+
+/* 광고 end */
+
+
+/* 바디 start */
 
 
 
 
-
-table {
+/* table {
     width: 100%;
 }
 
 table input {
     width: 100%;
-}
+} */
 
 
-/*   배경 부분 end  */
-
-/* 둘러보기 부분 start */
-
-.mb-20 {
-    margin-bottom: 20px;
-}
 
 .title {
     font-size: 25px;
@@ -85,10 +97,6 @@ table input {
     color: rgb(66, 66, 66);
 }
 
-.body {
-    margin: 30px 10px;
-    height: 1500px;
-}
 
 .card-box {
     display: grid;
@@ -321,9 +329,14 @@ a {
 
 /* footer */
 
+.div-footer {}
+
 .footer-top {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     font-weight: bold;
+    width: 1000px;
+    margin: 0px auto 30px auto;
+
 
 }
 
