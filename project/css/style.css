@@ -14,6 +14,10 @@
 /* 공통 start */
 a {
     text-decoration: none !important;
+    padding: 5px 5px;
+    /* 클릭 영역 확대 */
+    margin-right: 5px;
+    /* 오른쪽 여백 설정 */
 }
 
 .mb-20 {
@@ -62,9 +66,18 @@ a {
 
 }
 
+.box-tf {
+    position: relative;
+}
+
+.icon-search {
+    position: absolute;
+    top: 10px;
+    left: 270px;
+}
+
 /* 헤더 end */
 
-/* 바디 start */
 
 /* 광고 start */
 .div-addimage {
@@ -83,58 +96,30 @@ a {
 /* 광고창 end */
 
 
-/* table {
-    width: 100%;
-}
-
-table input {
-    width: 100%;
-} */
+/* 바디 start */
 
 
-
-.title {
+.div-recommendation {
     font-size: 25px;
     font-weight: 800;
     color: rgb(66, 66, 66);
 }
 
 
-.card-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-}
-
-.card {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    border: 1px solid rgb(210, 210, 210);
-    border-radius: 6px;
-    box-shadow: 0 0 3px 0 rgb(170, 170, 170);
-
-}
-
-.card-title {
-    display: grid;
-    align-items: center;
-    margin-left: 10px;
-    font-weight: 600;
-
-}
 
 
-section {
+
+.section-body {
     margin: 30px 0;
 }
 
-.img-box {
+.div-recommendation-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
 }
 
-.img1 {
+.div-recommendation-img-1 {
     background-image: url(../images/chaeyong.jpg);
     height: 250px;
     background-size: 100% 100%;
@@ -142,7 +127,7 @@ section {
 
 }
 
-.img2 {
+.div-recommendation-img-2 {
     background-image: url(../images/chaeyong.jpg);
     height: 250px;
     background-size: 100% 100%;
@@ -150,7 +135,7 @@ section {
 
 }
 
-.img3 {
+.div-recommendation-img-3 {
     background-image: url(../images/chaeyong.jpg);
     height: 250px;
     background-size: 100% 100%;
@@ -158,115 +143,40 @@ section {
 
 }
 
-
-
-.company-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-
-.company-img1 {
-    background-image: url(../images/chaeyong.jpg);
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-
-.company-img2 {
-    background-image: url(../images/chaeyong.jpg);
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-
-.company-img3 {
-    background-image: url(../images/chaeyong.jpg);
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-
-.company-img4 {
-    background-image: url(../images/chaeyong.jpg);
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-
-.company-img5 {
-    background-image: url(../images/chaeyong.jpg);
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-
-.company-img6 {
-    background-image: url(../images/chaeyong.jpg);
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-
-.company-img7 {
-    background-image: url(../images/chaeyong.jpg);
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-
-.company-img8 {
-    background-image: url(../images/chaeyong.jpg);
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-
-.text1 {
+.div-recommendation-text-1 {
     margin: 5px 0;
     font-size: 13px;
     color: grey;
 }
 
-.text2 {
+.div-recommendation-text-2 {
     font-size: 18px;
     font-weight: 600;
 }
 
-.text3 {
-    font-size: 12px;
-    display: inline;
-}
-
-.jop-more {
+.div-jop-more {
     display: flex;
     justify-content: space-between;
 }
 
-/* .btn-like{
-    display: flex;
-    justify-content: space-around;
 
-} */
 
-/* 여기까지 메인 */
+.div-recommendation-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
 
-th,
-td {
-    font-size: 25px;
+.div-company-img-1 {
+    background-image: url(../images/chaeyong.jpg);
+    height: 180px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+
 }
 
 
 
-/* 기업 메인 */
 
 .company-people-image1 {
     background-image: url(../images/people.jpg);
@@ -295,27 +205,20 @@ td {
 
 }
 
-.best-injae {
+.div-recommendation-people {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
 
 }
 
-/* list */
 
-.job-menu {
+.div-job-sector {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 120px;
 }
 
-a {
-    padding: 5px 5px;
-    /* 클릭 영역 확대 */
-    margin-right: 5px;
-    /* 오른쪽 여백 설정 */
-}
 
 .page-link {
     color: black !important;
@@ -326,31 +229,11 @@ a {
 /* footer */
 
 
-.footer-top {
+.div-footer-top {
     /* margin-bottom: 30px; */
     font-weight: bold;
     width: 1000px;
     margin: 0px auto 30px auto;
 
 
-}
-
-
-.tf-search {
-
-    height: 40px;
-    width: 300px;
-    font-size: 20px;
-    border-radius: 4px;
-    padding: 0 0 0 30px;
-}
-
-.box-tf {
-    position: relative;
-}
-
-.icon-search {
-    position: absolute;
-    top: 10px;
-    left: 270px;
 }
