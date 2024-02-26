@@ -13,9 +13,6 @@
 
 main {
     width: 1000px;
-    display: grid;
-    justify-content: end;
-
 }
 
 header {
