@@ -1,4 +1,3 @@
-
 /*   배경 부분 start  */
 
 /* 모든 요소의 마진 패딩값 초기화 */
@@ -11,8 +10,12 @@
      를 설정하면 보더 + 높이를 합쳐서 원하는 높이를 설정해줌
      */
 }
-main{
+
+main {
     width: 1000px;
+    display: grid;
+    justify-content: end;
+
 }
 
 header {
@@ -29,7 +32,7 @@ nav {
     justify-content: space-between;
 }
 
-.menu-left{
+.menu-left {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 10px;
@@ -51,7 +54,7 @@ nav {
 
 a {
     text-decoration: none !important;
-  }
+}
 
 
 
@@ -68,61 +71,62 @@ table input {
 
 /* 둘러보기 부분 start */
 
-.mb-20{
+.mb-20 {
     margin-bottom: 20px;
 }
 
-.title{
-    font-size :25px;
+.title {
+    font-size: 25px;
     font-weight: 800;
-    color: rgb(66,66,66);
+    color: rgb(66, 66, 66);
 }
 
-.body{
-    margin :30px 10px;
+.body {
+    margin: 30px 10px;
     height: 1500px;
 }
-.card-box{
+
+.card-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
 }
 
-.card{
-    display :grid;
-    grid-template-columns: 1fr 3fr  ;
-    border: 1px solid rgb(210,210,210);
+.card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid rgb(210, 210, 210);
     border-radius: 6px;
-    box-shadow: 0 0 3px 0 rgb(170,170,170);
+    box-shadow: 0 0 3px 0 rgb(170, 170, 170);
 
 }
 
-.card-title{
-    display: grid ;
+.card-title {
+    display: grid;
     align-items: center;
     margin-left: 10px;
     font-weight: 600;
 
 }
 
-.ad-img1{
+.ad-img1 {
     background-image: url(../images/ad1.png);
     height: 150px;
     border-radius: 20px;
     background-size: 100% 100%;
 }
 
-section{
-    margin:30px 0;
+section {
+    margin: 30px 0;
 }
 
-.img-box{
+.img-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
 }
 
-.img1{
+.img1 {
     background-image: url(../images/home1.jpg);
     height: 250px;
     background-size: 100% 100%;
@@ -130,14 +134,7 @@ section{
 
 }
 
-.img2{
-    background-image: url(../images/home1.jpg);
-    height: 250px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-.img3{
+.img2 {
     background-image: url(../images/home1.jpg);
     height: 250px;
     background-size: 100% 100%;
@@ -145,88 +142,103 @@ section{
 
 }
 
+.img3 {
+    background-image: url(../images/home1.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+
+}
 
 
-.company-box{
+
+.company-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 
-.company-img1{
+.company-img1 {
     background-image: url(../images/home1.jpg);
-    height:180px;
+    height: 180px;
     background-size: 100% 100%;
     border-radius: 20px;
 
 }
-.company-img2{
+
+.company-img2 {
     background-image: url(../images/home2.jpg);
-    height:180px;
+    height: 180px;
     background-size: 100% 100%;
     border-radius: 20px;
 
 }
-.company-img3{
+
+.company-img3 {
     background-image: url(../images/home3.jpg);
-    height:180px;
+    height: 180px;
     background-size: 100% 100%;
     border-radius: 20px;
 
 }
-.company-img4{
+
+.company-img4 {
     background-image: url(../images/home4.jpg);
-    height:180px;
+    height: 180px;
     background-size: 100% 100%;
     border-radius: 20px;
 
 }
-.company-img5{
+
+.company-img5 {
     background-image: url(../images/home5.jpg);
-    height:180px;
+    height: 180px;
     background-size: 100% 100%;
     border-radius: 20px;
 
 }
 
-.company-img6{
+.company-img6 {
     background-image: url(../images/home6.jpg);
-    height:180px;
+    height: 180px;
     background-size: 100% 100%;
     border-radius: 20px;
 
 }
-.company-img7{
+
+.company-img7 {
     background-image: url(../images/home7.jpg);
-    height:180px;
+    height: 180px;
     background-size: 100% 100%;
     border-radius: 20px;
 
 }
-.company-img8{
+
+.company-img8 {
     background-image: url(../images/home8.jpg);
-    height:180px;
+    height: 180px;
     background-size: 100% 100%;
     border-radius: 20px;
 
 }
 
-.text1{
+.text1 {
     margin: 5px 0;
-    font-size: 13px ;
-    color:grey;
-}
-.text2{
-    font-size: 18px;
-    font-weight: 600;    
+    font-size: 13px;
+    color: grey;
 }
 
-.text3{
-    font-size:12px;
+.text2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text3 {
+    font-size: 12px;
     display: inline;
 }
 
-.jop-more{
+.jop-more {
     display: flex;
     justify-content: space-between;
 }
@@ -239,7 +251,8 @@ section{
 
 /* 여기까지 메인 */
 
-th, td {
+th,
+td {
     font-size: 25px;
 }
 
@@ -247,23 +260,7 @@ th, td {
 
 /* 기업 메인 */
 
-.company-people-image1{
-    background-image: url(../images/people.jpg);
-    width: 150px;
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-.company-people-image2{
-    background-image: url(../images/people.jpg);
-    width: 150px;
-    height: 180px;
-    background-size: 100% 100%;
-    border-radius: 20px;
-
-}
-.company-people-image3{
+.company-people-image1 {
     background-image: url(../images/people.jpg);
     width: 150px;
     height: 180px;
@@ -272,7 +269,25 @@ th, td {
 
 }
 
-.best-injae{
+.company-people-image2 {
+    background-image: url(../images/people.jpg);
+    width: 150px;
+    height: 180px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+
+}
+
+.company-people-image3 {
+    background-image: url(../images/people.jpg);
+    width: 150px;
+    height: 180px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+
+}
+
+.best-injae {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
@@ -281,16 +296,19 @@ th, td {
 
 /* list */
 
-.job-menu{
+.job-menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 120px;
 }
 
- a {
-    padding: 5px 5px; /* 클릭 영역 확대 */
-    margin-right: 5px; /* 오른쪽 여백 설정 */
-} 
+a {
+    padding: 5px 5px;
+    /* 클릭 영역 확대 */
+    margin-right: 5px;
+    /* 오른쪽 여백 설정 */
+}
+
 .page-link {
     color: black !important;
 }
@@ -299,25 +317,27 @@ th, td {
 
 /* footer */
 
-.footer-top{
+.footer-top {
     margin-bottom: 30px;
     font-weight: bold;
 
 }
 
 
-.tf-search{
-            
+.tf-search {
+
     height: 40px;
     width: 300px;
     font-size: 20px;
     border-radius: 4px;
     padding: 0 0 0 30px;
 }
-.box-tf{
+
+.box-tf {
     position: relative;
 }
-.icon-search{
+
+.icon-search {
     position: absolute;
     top: 10px;
     left: 270px;
